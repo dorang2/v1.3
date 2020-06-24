@@ -1,0 +1,62 @@
+{
+ "Account": {
+     "Token": "6d933026b6a590d5906e307e7eab36443432202ab670fa84a652a3c9bd8ca4f51e1c7db7e7bab32752e7a12afa2b228f"
+     },
+ "Curency":"DOGE",
+ "Profit": {
+        "Target Profit": "100",
+        "Stop If Profit": "ON",
+        "Interval": "20"
+     },
+ "Target Win": "300",
+  "Lose Target": "0",
+  "Interval": "1",
+ "Config": [{
+     "Name Bet Set": "0",
+     "Base Bet": "0.01",
+     "Max Bet": "OFF",
+     "Chance": "71",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "17",
+          "Max": "25"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "1",
+              "If Win": "3"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "1.28",
+     "Reset If Win": "1",
+     "Reset If Profit": "OFF",
+     "Interval": "40"
+     },{
+     "Name Bet Set": "C30 - Mode JP Modal 600 Doge",
+     "Base Bet": "0.1",
+     "Max Bet": "Off",
+     "Chance": "39",
+     "Random Chance": {
+          "Toggle": "OFF",
+          "Min": "27",
+          "Max": "45"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "2",
+              "If Win": "1"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "2",
+     "Reset If Win": "1",
+     "Reset If Profit": "0",
+     "Interval": "10"
+     }
+  ]
+}
